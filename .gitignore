@@ -1,0 +1,69 @@
+# ============================================================
+# Python
+# ============================================================
+
+# Bytecode y cachés
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Cachés de herramientas (testing, linting, type-checking)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# Cobertura de pruebas
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# Variables de entorno (secretos) — `.envrc` sí se versiona
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Jupyter Notebooks
+# ============================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ============================================================
+# direnv
+# ============================================================
+.direnv/
+
+# ============================================================
+# Sistema operativo (macOS / Windows / Linux)
+# ============================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.Trash-*
+
+# ============================================================
+# Editores / IDEs
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
