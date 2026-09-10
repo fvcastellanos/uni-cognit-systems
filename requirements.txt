@@ -1,4 +1,17 @@
 torch
 torchvision
 torchaudio
+
+tensorflow
+
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+tensorflow-datasets
+opencv-python
+importlib_resources
+
 ipykernel
