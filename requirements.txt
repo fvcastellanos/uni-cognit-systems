@@ -2,15 +2,17 @@ torch
 torchvision
 torchaudio
 
-tensorflow
+tensorflow==2.18.0
+tensorflow-metal==1.2.0        # solo macOS con Apple Silicon (GPU Metal)
 
-numpy
+numpy==2.0.2                   # TF 2.18 exige numpy < 2.1
 pandas
 scikit-learn
 matplotlib
 seaborn
 
 tensorflow-datasets
+tensorflow-metadata==1.17.0    # compatible con TF 2.18 (protobuf 5.x)
 opencv-python
 importlib_resources
 
