@@ -17,3 +17,9 @@ opencv-python
 importlib_resources
 
 ipykernel
+jupyter
+notebook
+
+huggingface_hub
+datasets
+
