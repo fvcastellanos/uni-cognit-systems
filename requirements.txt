@@ -20,6 +20,11 @@ ipykernel
 jupyter
 notebook
 
-huggingface_hub
-datasets
+transformers
+wordcloud
+nltk
+
+datasets==3.6.0
+huggingface_hub<1
+
 
