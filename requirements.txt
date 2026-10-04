@@ -27,4 +27,4 @@ nltk
 datasets==3.6.0
 huggingface_hub<1
 
-
+tf_keras
