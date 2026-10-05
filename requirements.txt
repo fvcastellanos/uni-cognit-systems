@@ -1,6 +1,6 @@
 torch
-torchvision
-torchaudio
+# torchvision
+# torchaudio
 
 tensorflow==2.18.0
 tensorflow-metal==1.2.0        # solo macOS con Apple Silicon (GPU Metal)
@@ -24,7 +24,9 @@ transformers
 wordcloud
 nltk
 
+accelerate>=0.26.0
+
 datasets==3.6.0
-huggingface_hub<1
+huggingface_hub<1.0
 
 tf_keras
